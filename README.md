@@ -1,14 +1,11 @@
-# Aplicación Spring Boot en Contabo VPS
+# Aplicación Spring Boot 
+Nunez Reyes Jorge Emilio
 
-Proyecto desarrollado con **Spring Boot**, empaquetado con **Apache Maven**, controlado mediante **Git** y desplegado en un servidor virtual privado (**VPS Ubuntu**) con **Java 21**.
+Se realizaron los controladores utilizando los conocimientos aprendidos en el video
+Curso completo de Java Spring Boot desde cero
+https://youtube.com/playlist?list=PL2Z95CSZ1N4EWw14HZ0NFD3woFcn6uiCm
 
-## 🚀 Detalles del Entorno
-* **Servidor VPS:** Ubuntu (IP: `13.140.209.186`)
-* **Java:** Eclipse Adoptium Temurin JDK 21
-* **Gestor de Dependencias:** Apache Maven
-* **Puerto de Ejecución:** `8083`
 
----
 
 ## 🛠️ Endpoints Disponibles
 
@@ -35,10 +32,8 @@ La aplicación cuenta con controladores REST configurados para devolver la infor
 
 ---
 
-## ⚙️ Instrucciones de Despliegue en el VPS
+Instancia: http://13.140.209.186:8083/mi-instancia
 
-Para actualizar y desplegar las últimas modificaciones directamente en el servidor utilizando un flujo basado en Git, sigue estos pasos desde tu terminal SSH:
+Perfil: http://13.140.209.186:8083/perfil
 
-1. **Acceder a la carpeta del repositorio:**
-   ```bash
-   cd ~/NRJEact1_t4
+Estado: http://13.140.209.186:8083/estado
